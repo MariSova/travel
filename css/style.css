@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Playfair;
+  src: url(/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter-Medium.ttf);
+}
+
+body{
+  max-width: 1600px;
+}
+
+nav{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 1219px;
+  margin: auto 191px;
+  padding-top: 56px;
+  padding-bottom: 72px;
+}
+
+.logo{
+  justify-content: safe;
+  align-self: start;
+  margin-right: 515px;
+  margin-left: 0px;
+  padding-left: 0px;
+    
+}
+
+nav a{
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B8BECD;;
+  text-decoration: none;
+}
+
+
+.home{
+  color: #202336;
+}
+
+.login{
+  width: 132px;
+  height: 60px;
+  background: transparent;
+  border-radius: 8px; /* Скругляем уголки */
+  border-style: solid;
+  color: #FB8F1D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register{
+  width: 132px;
+  height: 60px;
+  background: #FB8F1D;
+  border-radius: 8px; /* Скругляем уголки */
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+    width: 1219px;
+    margin-left: 189px;
+    display: flexbox;
+    justify-content: space-between;    
+}
+
+h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+    
+}
+
+header p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+}
+
+.line{
+    width: 32px;
+    height: 2px;
+    left: 191px;
+    top: 482px;
+    background: #202336;
+    border-radius: 4px;
+    margin-top: 21px;
+    margin-bottom: 48px;
+}
+
+.rightpic{
+  /* display: flex; */
+  /* margin-right: 808px;
+  margin-left: 105px;
+  margin-top: 80px ; */
+  float: right; /* Выравнивание по правому краю */
+margin-right: 105px;
+}
+
+header button{
+  width: 180px;
+  height: 52px;
+  background: #FB8F1D;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 17px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  margin-top: 51px;
+  border: none;
+}
+
